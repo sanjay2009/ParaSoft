@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParaSoftSuite">
+  <test thread-count="5" name="ParaSoftSystemTest">
+    <classes>
+      <class name="com.qa.ParasoftTestCases.LoginTestCase"/>
+      <class name="com.qa.ParasoftTestCases.RegisterCustomerTestCase"/>
+      <class name="com.qa.ParasoftTestCases.HomePageTest"/>
+      <class name="com.qa.ParasoftTestCases.OpenNewAccountTest"/>
+            
+    </classes>
+  </test> <!-- ParaSoftSystemTest -->
+</suite> <!-- ParaSoftSuite -->

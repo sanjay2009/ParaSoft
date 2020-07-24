@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParaSoftSuite]">
+  <test thread-count="5" name="ParaSoftSystemTest(failed)">
+    <classes>
+      <class name="com.qa.ParasoftTestCases.RegisterCustomerTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickRegisterTest"/>
+          <include name="signup"/>
+        </methods>
+      </class> <!-- com.qa.ParasoftTestCases.RegisterCustomerTestCase -->
+      <class name="com.qa.ParasoftTestCases.LoginTestCase">
+        <methods>
+          <include name="signup"/>
+          <include name="loginTest"/>
+          <include name="validateLaunchPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.ParasoftTestCases.LoginTestCase -->
+    </classes>
+  </test> <!-- ParaSoftSystemTest(failed) -->
+</suite> <!-- Failed suite [ParaSoftSuite] -->
